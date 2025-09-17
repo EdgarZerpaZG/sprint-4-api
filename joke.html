@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dad Joke</title>
+  </head>
+  <body>
+    <main>
+      <section class="contain-layout p-3 relative">
+        <h1 class="text-3xl font-bold underline text-amber-300 mb-4 text-center">Dad Joke</h1>
+        <p class="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, adipisci alias dolore sequi explicabo ex vero possimus id magni, quis perspiciatis aspernatur quia nam quam porro suscipit error soluta reiciendis?</p>
+        <div class="columns-2 py-3 justify-center gap-4 flex">
+          <button type="button" id="generate-joke" class="bg-amber-300 hover:bg-amber-400 text-white font-bold py-2 px-4 rounded cursor-pointer">Generate Joke</button>
+        </div>
+        <div>
+            <p id="joke" class="mt-4 text-lg font-medium text-gray-800"></p>
+        </div>
+        <div class="columns-1 py-3 justify-center gap-4 flex">
+            <a href="./index.html" class="bg-cyan-300 hover:bg-cyan-400 text-white font-bold py-2 px-4 rounded cursor-pointer">Go Back</a>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/src/jokeMain.ts"></script>
+  </body>
+</html>
