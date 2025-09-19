@@ -1,21 +1,38 @@
 {
   "name": "sprint-4-api",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Connection to Dad Jokes API",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "jest --passWithNoTests"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdgarZerpaZG/sprint-4-api.git"
+  },
+  "author": "Edgar Zerpa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdgarZerpaZG/sprint-4-api/issues"
+  },
+  "homepage": "https://github.com/EdgarZerpaZG/sprint-4-api#readme",
   "devDependencies": {
+    "@jest/globals": "^30.1.2",
+    "@types/jest": "^30.0.0",
     "@types/node": "^24.5.1",
+    "jest": "^30.1.3",
+    "ts-jest": "^29.4.3",
     "typescript": "~5.8.3",
     "vite": "^7.1.2"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.13",
     "dotenv": "^17.2.2",
+    "jest-environment-jsdom": "^30.1.2",
     "tailwindcss": "^4.1.13"
   }
 }

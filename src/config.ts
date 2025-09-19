@@ -1,0 +1,1 @@
+export const DEFAULT_JOKE_URL = "https://icanhazdadjoke.com/";
