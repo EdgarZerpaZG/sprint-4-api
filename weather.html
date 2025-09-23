@@ -11,11 +11,12 @@
       <section class="contain-layout p-3 relative">
         <h1 class="text-3xl font-bold underline text-cyan-300 mb-4 text-center">Weather</h1>
         <p class="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, adipisci alias dolore sequi explicabo ex vero possimus id magni, quis perspiciatis aspernatur quia nam quam porro suscipit error soluta reiciendis?</p>
-        <div class="columns-2 py-3 justify-center gap-4 flex">
-          <button type="button" id="generate-blob" class="bg-cyan-300 hover:bg-cyan-400 text-white font-bold py-2 px-4 rounded cursor-pointer">Show Weather</button>
-        </div>
-        <div>
-            <p id="blob" class="mt-4 text-lg font-medium text-gray-800"></p>
+        <div id="weather" class="my-4 text-lg text-center font-medium text-gray-800">
+          <h4 class="text-l font-bold underline text-cyan-300 mb-4 text-center">Current Weather in Barcelona</h4>
+          <p id="latitude-data"></p>
+          <p id="longitude-data"></p>
+          <p id="timezone-data"></p>
+          <p id="temperature-data"></p>
         </div>
         <div class="columns-1 py-3 justify-center gap-4 flex">
             <a href="./index.html" class="bg-emerald-300 hover:bg-emerald-400 text-white font-bold py-2 px-4 rounded cursor-pointer">Go Back</a>

@@ -33,6 +33,7 @@
     "@tailwindcss/vite": "^4.1.13",
     "dotenv": "^17.2.2",
     "jest-environment-jsdom": "^30.1.2",
+    "openmeteo": "^1.2.0",
     "tailwindcss": "^4.1.13"
   }
 }
