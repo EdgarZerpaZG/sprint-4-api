@@ -12,13 +12,13 @@ It fetches a **random Chuck Norris joke** from the [Chuck Norris API](https://ap
 - 📌 Get a random Chuck Norris joke on.
 - 🌡️ View the current temperature based on your geographic location.  
 - 🛰️ Uses browser geolocation to fetch real-time weather data.  
-- ⚡ Lightweight and easy-to-use interface.  
+- ⚡ Lightweight and easy-to-use interface.
 
 ---
 
 ## 🚀 Technologies Used
 
-- **HTML, CSS, Tailwind, TypeScript**
+- **Vite, HTML, Tailwind, TypeScript**
 - [Chuck Norris API](https://api.chucknorris.io)  
 - [Open-Meteo API](https://open-meteo.com/)  
 - Geolocation (`getCurrentPosition()`)  
@@ -39,13 +39,14 @@ cd sprint-4-api
 
 3. Run in the terminal:
 ```
+npm install
 npm run dev
 ```
 
-4. Open the local url:
+4. Open the localhost url:
 - Example: http://localhost:5173/
 
-5. Aditional feature with Testing(Jest), open the terminal and run:
+5. Additional feature with Testing(Jest), open the terminal and run:
 ```
 npm run test
 ```

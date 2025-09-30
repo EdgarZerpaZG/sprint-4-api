@@ -34,17 +34,13 @@ async function showJoke() {
     }
 
     jokeElement.textContent = `${jokeData.value} 🤣`;
-
     console.log(`Joke: ${jokeData.value}`);
 
-    // Guardamos el chiste directamente en el historial
     const newEntry: JokeEntry = { joke: jokeData.value, date };
     jokesHistory.push(newEntry);
     saveHistory();
 
     console.log("Joke history:", jokesHistory);
-
-    // Resetear los íconos de score
     resetScoreIcons();
   } else {
     if (jokeElement) {
@@ -58,10 +54,10 @@ function setupScoreListeners() {
     const scoreIcon = document.getElementById(`score-${i}`);
     if (scoreIcon) {
       scoreIcon.addEventListener("click", () => {
-        if (jokesHistory.length === 0) return; // si no hay chistes, no hacer nada
+        if (jokesHistory.length === 0) return;
 
         const lastJoke = jokesHistory[jokesHistory.length - 1];
-        lastJoke.score = i; // asignamos score al último chiste
+        lastJoke.score = i;
         saveHistory();
 
         console.log(`Score ${i} added to joke:`, lastJoke);

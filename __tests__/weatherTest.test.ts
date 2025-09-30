@@ -1,4 +1,4 @@
-import { getWeatherData } from "../src/weatherTest";
+import { getWeatherData } from "../src/ts/weatherTest";
 
 describe("getWeatherData()", () => {
   it("should return an object with latitude and longitude", async () => {

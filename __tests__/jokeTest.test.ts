@@ -1,4 +1,4 @@
-import { jokeStatus } from "../src/jokeTest";
+import { jokeStatus } from "../src/ts/jokeTest";
 
 describe("jokeStatus()", () => {
   it("should return 'Chuck'", async () => {

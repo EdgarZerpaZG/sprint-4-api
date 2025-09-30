@@ -71,7 +71,7 @@ async function setWeather() {
     const temperatureData = document.getElementById("temperature-data");
     if (temperatureData) {
       temperatureData.innerHTML =
-        `☁️ <span class="font-bold">${weatherData.current.temperature_2m.toFixed()}°C</span>`;
+        `☁️ | <span class="font-bold">${weatherData.current.temperature_2m.toFixed()}°C</span>`;
     }
 
   } catch (error) {
