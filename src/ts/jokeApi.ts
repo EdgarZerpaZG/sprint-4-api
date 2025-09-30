@@ -6,10 +6,10 @@ async function resolveConfig() {
   if (JOKE_URL) return JOKE_URL;
 
   if (typeof process !== "undefined" && process.env.JEST_WORKER_ID !== undefined) {
-    const { JOKE_URL: url } = await import("./config.node");
+    const { JOKE_URL: url } = await import("../config/config.node");
     JOKE_URL = url;
   } else {
-    const { JOKE_URL: url } = await import("./config.vite");
+    const { JOKE_URL: url } = await import("../config/config.vite");
     JOKE_URL = url;
   }
   return JOKE_URL;

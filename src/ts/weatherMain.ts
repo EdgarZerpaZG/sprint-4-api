@@ -1,4 +1,3 @@
-import './style.css';
 import { fetchWeatherApi } from 'openmeteo';
 
 const params = {

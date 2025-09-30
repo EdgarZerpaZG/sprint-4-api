@@ -1,4 +1,3 @@
-import "./style.css";
 import { getRandomJoke } from "./jokeApi";
 
 type JokeEntry = { joke: string; date: string; score?: number };
