@@ -1,5 +1,5 @@
 export interface JokeResponse {
   id: string;
-  joke: string;
+  value: string;
   status: number;
 }
